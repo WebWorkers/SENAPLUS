@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>SENA MOVIL</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="package/lungo/lungo.css">
+        <link rel="stylesheet" href="package/lungo/lungo.theme.css">
+        <link rel="stylesheet" href="package/lungo/lungo.icon.css">
+        <link rel="stylesheet" href="static/stylesheets/app.css">
+        <link href="static/stylesheets/styles.css" type="text/css" rel="stylesheet"/>
+        <link href="static/stylesheets/photoswipe.css" type="text/css" rel="stylesheet"/>
+        <link rel="stylesheet" href="static/stylesheets/stylesheet.css" type="text/css" charset="utf-8"/>
+        <link rel="stylesheet" href="static/stylesheets/horizontal.css" type="text/css" charset="utf-8"/>
+        <link rel="stylesheet" href="http://yui.yahooapis.com/pure/0.3.0/grids-min.css">
+        <link href="static/stylesheets/style_glide.css" type="text/css" rel="stylesheet">
+    </head>
+    <body>
+        <script src="components/quojs/quo.js"></script>
+        <script src="package/lungo/lungo.js"></script>
+        <script src="package/jquery/jquery-1.10.2.js"></script>
+        <script>(function() {
+                Lungo.init({name: "Kitchen Sink", version: "2.1.0222", resources: ["static/sections/splash.html"], history: false})
+            })();
+        </script>
+        <script type="text/javascript">window.onload = timeout;
+            function timeout() {
+                window.setTimeout("redirect()", 5000)
+            }
+            function redirect() {
+                window.location = "splach.html";
+                return
+            }
+            ;
+        </script>
+        <script src="static/javascripts/app.js"></script>
+        <script src="static/javascripts/index.js"></script>
+        <script type='text/javascript' src='static/javascripts/jquery.glide.js'></script>
+        <script type='text/javascript' src='static/javascripts/matchmedia.js'></script>
+        <script type='text/javascript' src='static/javascripts/picturefill.js'></script>
+        <script type="text/javascript" src="static/javascripts/klass.min.js"></script>
+        <script type="text/javascript" src="static/javascripts/code.photoswipe-3.0.5.min.js"></script>
+        <script type="text/javascript" src="static/javascripts/plugins.js"></script>
+        <script type="text/javascript" src="static/javascripts/sly.min.js"></script>
+        <script type="text/javascript" src="static/javascripts/horizontal.js"></script>
+        <script>var glide = $(".slider").glide({autoplay: "8000", });</script>
+        <script>$(".slider").glide({arrows: "true", nav: "true", navCenter: "true", });</script>
+        <script>(function(a) {
+                (function(c, b) {
+                    document.addEventListener("DOMContentLoaded", function() {
+                        var e = {}, d = b.attach(c.document.querySelectorAll("#Gallery a"), e)
+                    }, false)
+                }(window, window.Code.PhotoSwipe));
+                Index.init()
+            })(jQuery);
+        </script>
+        <script>jQuery(function() {
+                jQuery("#camera_wrap_3").camera({height: "56%", pagination: false, thumbnails: true, imagePath: "static/images/"})
+            });
+        </script>
+    </body>
+</html>
